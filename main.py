@@ -31,3 +31,6 @@ def user_interfaces():
 
         for res in response:
             st.write(res.text, end="")
+
+if __name__ == "__main__":
+    user_interfaces()
